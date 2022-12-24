@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.logo{
+    width: 70px;
+    display: flex;
+}
+.logo-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.companyname,.companyname1{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: rgb(236, 234, 234);
+}
+.top-flex{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+     
+    margin-bottom: 10px;  
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    
+}
+.bottom-flex{
+    color: red;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.top-left{
+    flex: 1;
+    display: flex;
+    
+    
+}
+.top-right{
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    justify-content: right;
+    align-items: center;
+}
+.majorprojects{
+    margin-right: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.ahome{
+    text-decoration: none;
+    margin-left: 0px;
+}
+a:hover{
+    color: red;
+
+}
+.team{
+    color: red;
+}
+.heading{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    color:rgb(167, 166, 166);
+    margin-left: 30px;
+    row-gap: 60px;
+}
+li{
+    margin-left: 20px;
+}
+.leftgrid{
+    color: white;
+}
