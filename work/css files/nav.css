@@ -69,6 +69,9 @@ a{
     color: white;
     margin-left: 30px;
 }
+a:hover{
+    color:red
+}
 .bottom-left{
     flex: 1;
   
